@@ -114,7 +114,7 @@ az network nsg rule create \
 # AllowBastion:Communication
 az network nsg rule create \
 --priority 120 \
---name AllowBastion:Communication \
+--name AllowBastionCommunication \
 --destination-port-ranges 8080 5701 \
 --protocol "*" \
 --source-address-prefixes VirtualNetwork \
